@@ -3,7 +3,7 @@ Roulette game logic - x2, x3, x5, x30 multipliers
 """
 import random
 import hashlib
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 from ..core.config import settings
 
 
