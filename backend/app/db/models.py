@@ -135,7 +135,7 @@ class Transaction(Base):
     balance_after = Column(Float, nullable=False)
     
     description = Column(Text, nullable=True)
-    metadata = Column(Text, nullable=True)  # JSON string
+    meta_data = Column(Text, nullable=True)  # JSON string (renamed from metadata)
     
     created_at = Column(DateTime, default=datetime.utcnow)
     updated_at = Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
